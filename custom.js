@@ -25,6 +25,19 @@ $(function () {
     });
 });
 
+$(document).ready(function(){
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 50) {
+          $("#top-nav").css("background","#211307");
+        }  
+        else{
+            $("#top-nav").css("background" , "transparent");
+  	
+        }
+    })
+  })
+
 /* js for testimonials*/
 
 $('.owl-carousel').owlCarousel({
