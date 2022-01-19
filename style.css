@@ -84,7 +84,7 @@ a, a:hover{
 }
 
 #top-nav .logo-wrapper .logo{
-	color: #e01a3e;
+	color: orange;
 }
 
 .navbar-wrapper li .link-item{
@@ -98,11 +98,11 @@ a, a:hover{
 }
 
 .navbar-wrapper li .link-item:hover{
-	color: #e01a3e;
+	color: orange;
 }
 
 .navbar-wrapper li.active a{
-	color: #e01a3e;
+	color: orange;
 }
 
 #hero-area{
@@ -143,7 +143,7 @@ a, a:hover{
 	margin-bottom: 60px;
 }
 #hero-area .hero-cover .hero-content-box .hero-desc span{
-	color: #e01a3e;;
+	color: orange;;
 }
 
 #hero-area .hero-cover .hero-content-box .hero-btns .btn{
@@ -177,7 +177,7 @@ a, a:hover{
     color: #fff;
 }
 #hero-area .hero-cover .hero-content-box .social li a:hover{
-    color: #e01a3e;
+    color: orange;
 }
 
 .btn:before{
@@ -203,7 +203,7 @@ a, a:hover{
 }
 
 .btn-white:hover:before{
-	background-color: #e01a3e;
+	background-color: orange;
 }
 
 .btn-white:hover:before,
@@ -212,13 +212,13 @@ a, a:hover{
 }
 
 .btn-red{
-	background-color: #e01a3e;
+	background-color: orange;
 	color: #fff;
 }
 
 .btn-red:hover{
-	color: #e01a3e;
-	border: 1px solid #e01a3e
+	color: orange;
+	border: 1px solid orange
 }
 
 .btn-red:hover:before{
@@ -237,7 +237,7 @@ a, a:hover{
 }
 
 #about{
-	background: #7b302e14;
+	/* background: #7b302e14; */
 }
 
 #about .about-pic{
@@ -258,7 +258,7 @@ a, a:hover{
 }
 
 #about .about-content h4 span{
-	color: #e01a3e;
+	color: orange;
 }
 
 #about .about-content .about-subtitle{
@@ -280,12 +280,12 @@ a, a:hover{
 }
 
 #about .about-content .about-btns .btn-white{
-	border: 1px solid #e01a3e;
+	border: 1px solid orange;
 }
 
 #about .about-content .about-btns .btn-red{
 	margin: 0 20px 0 0;
-	border: 1px solid #e01a3e;
+	border: 1px solid orange;
 }
 
 #about .about-content .contact{
@@ -356,7 +356,7 @@ a, a:hover{
 
 #services .services-item .icon{
 	font-size: 50px;
-	color: #e01a3e;
+	color: orange;
 }
 
 #services .services-item:hover{
@@ -370,7 +370,7 @@ a, a:hover{
 }
 
 .section-cover{
-	background-color: #7b302e14;
+	/* background-color: #7b302e14; */
 }
 
 #hire-me .section-heading{
@@ -400,8 +400,8 @@ a, a:hover{
 }
 
 #portfolio .portfolio-content .portfolio-filter li.active{
-	color: #e01a3e;
-	border: 1px solid #e01a3e;
+	color: orange;
+	border: 1px solid orange;
 }
 
 #portfolio .portfolio-content .portfolio-items{
@@ -473,16 +473,15 @@ a, a:hover{
 
 #testimonials .section-heading{
 	padding: 80px 0 0 0;
-	color: #fff;
 }
 
 #testimonials .testimonials-content{
-	padding: 50px 0 30px 0;
+	padding: 8px 0 30px 0;
 }
 
 #testimonials .testimonials-content .icon{
 	font-size: 44px;
-	color: #e01a3e;
+	color: orange;
 }
 
 #testimonials .testimonials-content .testimonial-desc{
@@ -521,7 +520,7 @@ a, a:hover{
 
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span{
-	background-color: #e01a3e;
+	background-color: orange;
 }
 
 .owl-theme .owl-nav.disabled + .owl-dots{
@@ -567,13 +566,13 @@ a, a:hover{
 }
 
 .btn-mouse-wrapper .btn-mouse{
-	border: 1px solid #e01a3e;
+	border: 1px solid orange;
 	padding: 20px 15px;
 	border-radius: 50px;
 } 
 .btn-mouse-wrapper .btn-mouse:hover{
-	background-color: #e01a3e;
-	border: 2px solid #e01a3e;
+	background-color: orange;
+	border: 2px solid orange;
 } 
 
 .btn-mouse-wrapper .btn-mouse .btn-wheel{
@@ -585,6 +584,87 @@ a, a:hover{
 	animation: updown 2s ease .1s infinite;
 }
 
+
+
+
+
+
+
+/* sdfas */
+
+.display-spacing {
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+
+.el-heading.el-heading-center{
+	max-width: 768px;
+    text-align: center;
+    margin: 0 auto 60px;
+}
+.el-heading .el-icon {
+    margin-bottom: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	position: relative;
+
+}
+.el-about-heading .el-icon{
+	margin-bottom: 9px;
+	position: relative;
+}
+
+.el-icon:before {
+    top: 0;
+    /* left: 0; */
+    width: 36px;
+    height: 36px;
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background: orange;
+	z-index: -1;
+	margin: auto;
+}
+.el-heading.el-heading-center .el-icon .el-icon-title {
+    padding-top: 3px;
+}
+.el-heading h3 {
+    color: #151812;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+
+.divider {
+    display: inline-block;
+    margin: 0 9px 15px;
+    background-color: orange;
+}
+.divider, .divider.divider-1 {
+    width: 63px;
+    height: 4px;
+    position: relative;
+}
+.divider.divider-1-2:after {
+    left: -17px;
+}
+.divider.divider-1-2:before {
+    left: -9px;
+}
+.divider.divider-1-1 {
+    margin-right: 12px!important;
+}
+.divider.divider-1-2:after, .divider.divider-1-2:before {
+    width: 5px;
+    height: 5px;
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background-color: orange;
+}
 
 @keyframes updown{
 	0%{
