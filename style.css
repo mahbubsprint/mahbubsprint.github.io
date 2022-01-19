@@ -547,13 +547,14 @@ a, a:hover{
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #e1423f;
+    color: orange;
+
 }
 .footer-section .social-links li a:hover {
     color: #ddd;
 }
 .footer-section .footer-bottom .copyright i{
-	color: #e1423f;
+	color:orange;
 }
 
 .btn-mouse-wrapper{
