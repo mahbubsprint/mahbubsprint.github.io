@@ -228,6 +228,9 @@ a, a:hover{
 .section{
 	padding: 100px 0;
 }
+.portfolio-section{
+	padding-top: 100px;
+}
 
 .section-title{
 	text-transform: uppercase;
@@ -293,6 +296,9 @@ a, a:hover{
 }
 #about .about-content .contact .contact-info{
 	flex: 1;
+}
+#about .about-content .contact .contact-info .address{
+	letter-spacing: 1;
 }
 #about .about-content .contact .about-btns{
 	flex: 1;
@@ -561,7 +567,7 @@ a, a:hover{
 	position: absolute;
 	display: inline-block;
 	left: 50%;
-	bottom: 10%;
+	bottom: 4%;
 	transform: translateX(-50%);
 	z-index: 1;
 }
@@ -594,8 +600,8 @@ a, a:hover{
 /* sdfas */
 
 .display-spacing {
-    padding-top: 70px;
-    padding-bottom: 120px;
+    padding-top: 15px;
+    padding-bottom: 40px;
 }
 
 .el-heading.el-heading-center{
@@ -610,6 +616,119 @@ a, a:hover{
     justify-content: center;
 	position: relative;
 
+}
+#resume .education-experience{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#resume .education-experience .resume-title{
+	font-weight: 600;
+    position: relative;
+    font-size: 20px;
+    padding-left: 35px;
+    margin-bottom: 15px;
+    z-index: 3;
+    line-height: 1;
+
+}
+#resume .education-experience ul li{
+	display: block;
+	position: relative;
+}
+#resume .education-experience ul li:after{
+	top: -18px;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    background-color: #151812;
+}
+#resume .education-experience li .resume-item{
+	position: relative;
+}
+#resume .education-experience li .resume-item:before{
+	top: 43px;
+    left: 0;
+    width: 25px;
+    height: 1px;
+    content: "";
+    position: absolute;
+    background-color: #151812;
+}
+#resume .education-experience li .resume-item .resume-head{
+	padding-top: 25px;
+	padding-left: 90px;
+	margin-bottom: 20px;	
+}
+.resume-head h5{
+	font-size: 18px;
+	font-weight: 500;
+}
+.resume-head h6{
+	font-size: 16px;
+	font-weight: normal;	
+}
+.el-icon .el-icon-icon {
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+    font-size: 30px;
+    line-height: 36px;
+    position: relative;
+}
+.ti-crown:before{
+	font-family: FontAwesome;
+    content: "\f19d";
+}
+.ti-university:before{
+	font-family: FontAwesome;
+    content: "\f19c";
+}
+.ti-sq-pencil:before{
+	font-family: FontAwesome;
+    content: "\f14b";
+}
+.ti-desktop:before{
+	font-family: FontAwesome;
+    content: "\f108";
+}
+.ti-pencil:before{
+	font-family: FontAwesome;
+    content: "\f040";
+}
+.ti-heart:before{
+	font-family: FontAwesome;
+    content: "\f004";
+}
+#resume .education-experience li .resume-item .resume-body{
+	padding: 20px 43px;
+	font-size: 14px;
+}
+#resume .education-experience li .resume-item .resume-head .el-icon{
+	top: 26px;
+    left: 24px;
+    position: absolute;
+}
+.resume-title::before{
+	top: 5px;
+    left: -7px;
+    width: 15px;
+    height: 15px;
+    display: block;
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background-color: orange;	
+}
+#resume .education-experience .left{
+	width: 50%;
+	padding: 10px;
+}
+#resume .education-experience .right{
+	width: 50%;
+	padding: 10px;
 }
 .el-about-heading .el-icon{
 	margin-bottom: 9px;

@@ -1,0 +1,58 @@
+@media (max-width: 767px){
+	#top-nav .logo-wrapper{
+		font-size: 13px;
+	}
+	.navbar-wrapper li .link-item{
+		font-size: 12px;
+        padding: 0 2px;
+	}
+    #hero-area .hero-cover {
+        height: 70vh;
+    }
+    #hero-area .hero-cover .hero-content-box {
+        top: 41%;
+    }
+    #hero-area .hero-cover .hero-content-box .post {
+        margin: 3px 0 5px 0;
+        font-size: 35px;
+    }
+    #hero-area .hero-cover .hero-content-box .hero-desc {
+        font-size: 16px;
+        margin-bottom: 1px;
+    }
+    #hero-area .hero-cover .hero-content-box .social {
+        margin: 11px 0;
+        padding: 0;
+        font-size: 20px;
+    }
+    .btn-mouse-wrapper {
+        bottom: 4%;
+    }
+    .btn-mouse-wrapper .btn-mouse {
+        padding: 16px 13px;
+    }
+    #about .about-pic {
+        width: 100%;
+    }
+    #about .about-content {
+        width: 100%;
+        margin-top: 10px;
+    }
+    #about .about-content .contact {
+        display: block;
+    }
+    #resume .education-experience {
+        display: block;
+    }
+    .el-heading.el-heading-center {
+        margin: 0 auto 30px;
+    }
+    #resume .education-experience .left {
+        width: 100%;
+        padding: 5px;
+    }
+    #resume .education-experience .right {
+        width: 100%;
+        padding: 5px;
+    }
+}
