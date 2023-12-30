@@ -195,7 +195,7 @@ a, a:hover{
 }
 #hero-area .hero-cover{
 /* 	background-image: url(images/bg.jpg); */
-	background: black,
+	background: black;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center center;
